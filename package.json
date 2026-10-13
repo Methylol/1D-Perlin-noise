@@ -1,0 +1,21 @@
+{
+  "name": "perlin-noise",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "perlin",
+    "noise",
+    "generator",
+    "showcase"
+  ],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lil-gui": "0.21.0"
+  }
+}
