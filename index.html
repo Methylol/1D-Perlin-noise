@@ -16,14 +16,12 @@
         --background: #ffffff;
         --text: #000000;
       }
-
       @media (prefers-color-scheme: dark) {
         :root {
           --background: #121212;
           --text: #ffffff;
         }
       }
-
       html,
       body {
         background-color: var(--background);
@@ -128,7 +126,7 @@
         // wahat I need to for rendering: the adjacent gradients and nodes,
         gr.clearRect(-1.5, -1.5, 4, 4);
         gr.fillStyle = "gray";
-        gr.fillRect(-1.5, -1.5, 4, 4);
+        gr.fillRect(-1.5, -1.5, 4, 4)
         gr.fillStyle = "blue";
         gr.fillRect(-1, -data.pointSize / 2, 2, data.pointSize);
         const rand = mulberry32(data.seed / 1000);
